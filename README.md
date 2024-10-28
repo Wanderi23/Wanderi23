@@ -1,13 +1,10 @@
-#def is a palindrome 
+# Define a function 
+def isPalindrome(string): 
+    if string == string[::-1]: 
+        return "The string is a palindrome." 
+    else: 
+        return "The string is not a palindrome." 
 
-
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-Wanderi23/Wanderi23 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Enter input  
+string = input("Enter mum: ") 
+print(isPalindrome(string))
