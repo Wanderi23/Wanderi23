@@ -1,0 +1,9 @@
+def reverse_number(number):
+    num_list = list(str(number))
+    reversed_num = int(''.join(num_list[::-1]))
+    return reversed_num
+
+original_number = 1234
+result = reverse_number(original_number)
+print("Original Number:", original_number)
+print("Reversed Number (List):", result)
